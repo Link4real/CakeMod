@@ -1,6 +1,5 @@
 package com.link.mod.cakemod;
 
-import com.link.mod.cakemod.registry.CakeItems;
 import com.link.mod.cakemod.registry.cakes.ChocolateCakeBlock;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
