@@ -1,6 +1,6 @@
-package com.link.mod.template;
+package com.link.mod.cakemod;
 
-import com.link.mod.template.registry.ModItems;
+import com.link.mod.cakemod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 public class Main implements ModInitializer {

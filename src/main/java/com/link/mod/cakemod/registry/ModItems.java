@@ -1,4 +1,4 @@
-package com.link.mod.template.registry;
+package com.link.mod.cakemod.registry;
 
 public class ModItems {
 

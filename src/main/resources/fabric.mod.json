@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cakemod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "CakeMod",
+  "description": "Adds more Cakes to Minecraft :)",
   "authors": [
     "Link4Real"
   ],
   "contact": {
     "homepage": "https://link4real.github.io",
-    "sources": "https://github.com/Link4real/link4real-example-mod"
+    "sources": "https://github.com/Link4real/CakeMod"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cakemod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.link.mod.template.Main"
+      "com.link.mod.cakemod.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "cakemod.mixins.json"
   ],
 
   "depends": {
