@@ -1,3 +1,3 @@
-# Link4real Fabric Mod Template
+# Cake Mod for Fabric :)
 
-## Mod Template for all Fabric Mods by Link4real!
+## New project :D
