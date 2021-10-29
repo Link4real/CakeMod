@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "cakemod.mixins.json"
+    ""
   ],
 
   "depends": {
