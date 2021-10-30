@@ -20,6 +20,6 @@ public class ChocolateCakeBlock extends CakeBlock {
     }
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0.2f, 0f, 0.2f, 0.7f, 0.9f, 0.7f);
+        return VoxelShapes.cuboid(0.1f, 0f, 0.1f, 0.9f, 0.5f, 0.9f);
     }
 }

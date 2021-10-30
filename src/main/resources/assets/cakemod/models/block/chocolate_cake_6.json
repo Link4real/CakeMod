@@ -3,31 +3,32 @@
 	"ambientocclusion": false,
 	"textures": {
 		"0": "cakemod:blocks/chocolate_cake_1",
+		"1": "cakemod:blocks/chocolate_cake_2",
 		"particle": "cakemod:blocks/chocolate_cake_1"
 	},
 	"elements": [
 		{
 			"from": [2, 0, 13],
-			"to": [14, 5, 14],
+			"to": [14, 3, 14],
 			"faces": {
-				"north": {"uv": [0, 0, 12, 5], "texture": "#0"},
-				"east": {"uv": [0, 0, 1, 5], "texture": "#0"},
-				"south": {"uv": [0, 0, 12, 5], "texture": "#0"},
-				"west": {"uv": [0, 0, 1, 5], "texture": "#0"},
-				"up": {"uv": [0, 0, 12, 1], "texture": "#0"},
-				"down": {"uv": [0, 0, 12, 1], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 12, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 12, 9], "texture": "#0"}
 			}
 		},
 		{
-			"from": [2, 0, 12],
-			"to": [14, 2, 13],
+			"from": [3, 0, 14],
+			"to": [13, 4, 15],
 			"faces": {
-				"north": {"uv": [0, 0, 12, 2], "texture": "#0"},
-				"east": {"uv": [0, 0, 1, 2], "texture": "#0"},
-				"south": {"uv": [0, 0, 12, 2], "texture": "#missing"},
-				"west": {"uv": [0, 0, 1, 2], "texture": "#0"},
-				"up": {"uv": [0, 0, 12, 1], "texture": "#0"},
-				"down": {"uv": [0, 0, 12, 1], "texture": "#0"}
+				"north": {"uv": [0, 0, 10, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 10, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 10, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 10, 1], "texture": "#0"}
 			}
 		}
 	]
