@@ -13,7 +13,7 @@ import net.minecraft.world.BlockView;
 
 public class WeddingCakeBlock extends CakeBlock {
     public WeddingCakeBlock(Settings settings) {
-        super(FabricBlockSettings.of(Material.CAKE).ticksRandomly().sounds(BlockSoundGroup.WOOL).nonOpaque());
+        super(FabricBlockSettings.of(Material.CAKE).ticksRandomly().sounds(BlockSoundGroup.WOOL).nonOpaque().noCollision());
     }
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
