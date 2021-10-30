@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cakemod:blocks/carrot_cake_top",
+		"1": "cakemod:blocks/carrot_cake_side",
+		"particle": "cakemod:blocks/carrot_cake_top"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 3],
+			"to": [8, 4, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 9, 4], "texture": "#1"},
+				"east": {"uv": [0, 0, 9, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 3, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 3, 4], "texture": "#1"},
+				"up": {"uv": [0, 0, 5, 3], "texture": "#0"},
+				"down": {"uv": [1, 5, 4, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 2],
+			"to": [9, 4, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"east": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 8], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 2, 1, 6], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 0, 3],
+			"to": [9, 4, 5],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#0"},
+				"down": {"uv": [0, 1, 1, 3], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9, 0, 2],
+			"to": [10, 4, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 4], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 4], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#0"},
+				"down": {"uv": [0, 1, 1, 3], "texture": "#1"}
+			}
+		}
+	]
+}

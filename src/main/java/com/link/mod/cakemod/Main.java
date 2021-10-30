@@ -1,6 +1,7 @@
 package com.link.mod.cakemod;
 
 import com.link.mod.cakemod.registry.cakes.BirthdayCakeBlock;
+import com.link.mod.cakemod.registry.cakes.CarrotCakeBlock;
 import com.link.mod.cakemod.registry.cakes.ChocolateCakeBlock;
 import com.link.mod.cakemod.registry.cakes.WeddingCakeBlock;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,7 @@ public class Main implements ModInitializer {
     public static final Block CHOCOLATE_CAKE = new ChocolateCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.2f));
     public static final Block BIRTHDAY_CAKE = new BirthdayCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.2f));
     public static final Block WEDDING_CAKE = new WeddingCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.2f));
+    public static final Block CARROT_BLOCK = new CarrotCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.3f));
 
     public static final String MOD_ID = "cakemod";
 
@@ -34,5 +36,7 @@ public class Main implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "birthday_cake"), new BlockItem(BIRTHDAY_CAKE, new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1)));
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "wedding_cake"),WEDDING_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "wedding_cake"), new BlockItem(WEDDING_CAKE, new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "carrot_cake"), CARROT_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "carrot_cake"), new BlockItem(CARROT_BLOCK, new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1)));
     }
 }
