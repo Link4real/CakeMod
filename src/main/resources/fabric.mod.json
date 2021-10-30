@@ -3,14 +3,14 @@
   "id": "cakemod",
   "version": "${version}",
 
-  "name": "CakeMod",
-  "description": "Adds more Cakes to Minecraft :)",
+  "name": "Cake Mod",
+  "description": "That's very tasty!",
   "authors": [
-    "Link4Real"
+    "Link4real"
   ],
   "contact": {
-    "homepage": "https://link4real.github.io",
-    "sources": "https://github.com/Link4real/CakeMod"
+    "sources": "https://github.com/Link4real/CakeMod",
+    "issues": "https://github.com/Link4real/CakeMod/issues"
   },
 
   "license": "MIT",
@@ -23,7 +23,6 @@
     ]
   },
   "mixins": [
-    ""
   ],
 
   "depends": {
@@ -33,7 +32,7 @@
     "java": ">=16"
   },
   "suggests": {
-    "foodmod": "FoodMod for Fabric by Link4real"
+    "foodmod": "FoodMod by Link4real"
   },
   "custom": {
     "modmenu": {
@@ -43,4 +42,3 @@
     }
   }
 }
-
