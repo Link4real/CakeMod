@@ -34,5 +34,13 @@
   },
   "suggests": {
     "foodmod": "FoodMod for Fabric by Link4real"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.cosmo": "https://dsc.gg/cosmoclient"
+      }
+    }
   }
 }
+

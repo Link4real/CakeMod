@@ -1,3 +1,5 @@
 {
-  "block.cakemod.chocolate_cake": "Chocolate Cake"
+  "block.cakemod.chocolate_cake": "Chocolate Cake",
+  "block.cakemod.birthday_cake": "Birthday Cake",
+  "modmenu.cosmo": "Cosmoclient"
 }
