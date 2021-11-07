@@ -5,5 +5,6 @@
   "block.cakemod.carrot_cake": "Carrot Cake",
   "block.cakemod.apple_pie": "Apple Pie",
   "block.cakemod.spooky_cake": "Spooky Cake",
-  "modmenu.cosmo": "Cosmoclient"
+  "block.cakemod.glow_berry_cake": "Glow Berry Cake",
+  "itemGroup.cakemod.main": "Cake Mod"
 }
