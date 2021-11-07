@@ -6,9 +6,11 @@
 
 <p style="font-size:25px;" align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/cake-mod">Curseforge</a></p>
 
-<p style="font-size:25px;" align="center"><a href="https://modrinth.com/mod/cakemod">Modrinth</a></p>
+<p style="font-size:25px;" align="center"><a href="https://modrinth.com/mod/cake">Modrinth</a></p>
 
-<p align="center"><img valign="middle" src="https://i.imgur.com/zmgIrhN.png" width="120px"></p>
+<p style="font-size:25px;" align="center"><a href="https://link4real.github.io/cake">Website</a></p>
+
+<p align="center"><img valign="middle" src="https://i.imgur.com/LVqrxZI.png"></p>
 
 <p style="font-size:25px" align="center">This project is under the MIT license</p>
 <p style="font-size:25px" align="center">Please respect the license in any way!</p>
