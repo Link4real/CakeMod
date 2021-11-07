@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 
 import static com.link.mod.cakemod.Main.MOD_ID;
 
-public class RegisterCakes {
+public class Cakes {
 
     public static final Block CHOCOLATE_CAKE = new ChocolateCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block BIRTHDAY_CAKE = new BirthdayCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
@@ -20,8 +20,9 @@ public class RegisterCakes {
     public static final Block CARROT_BLOCK = new CarrotCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block APPLE_PIE = new ApplePieBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block SPOOKY_CAKE = new SpookyCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
-    public static final Block GLOW_BERRY_CAKE = new BerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block GLOW_BERRY_CAKE = new BerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f).luminance(9));
     public static final Block CHOCOLATE_CARROT_CAKE = new CarrotCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block SWEET_BERRY_CAKE = new BerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
 
     public static void register() {
         //Chocolate Cake
@@ -48,5 +49,8 @@ public class RegisterCakes {
         //Chocolate Carrot Cake
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "chocolate_carrot_cake"), CHOCOLATE_CARROT_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "chocolate_carrot_cake"), new BlockItem(CHOCOLATE_CARROT_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
+        //Sweet Berry Cake
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "sweet_berry_cake"), SWEET_BERRY_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sweet_berry_cake"), new BlockItem(SWEET_BERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
     }
 }
