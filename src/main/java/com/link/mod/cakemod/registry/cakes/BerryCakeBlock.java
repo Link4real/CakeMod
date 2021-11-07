@@ -11,8 +11,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class BerryCake extends CakeBlock {
-    public BerryCake(Settings settings) {
+public class BerryCakeBlock extends CakeBlock {
+    public BerryCakeBlock(Settings settings) {
         super(FabricBlockSettings.of(Material.CAKE).ticksRandomly().sounds(BlockSoundGroup.WOOL).nonOpaque().luminance(9));
     }
     @Override
