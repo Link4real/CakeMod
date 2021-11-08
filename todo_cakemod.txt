@@ -1,5 +1,6 @@
--Chocolate Carrot Cake with cocoa beans in recipe
-
--Berry Cakes -> Sweet Berry and Glow Berry Cake
-
--Other mods implementation -> maybe Croptopia etc...?
+-Other mods implementation -> Croptopia
+                              * Cranberry Cake
+                              * Strawberry Cake
+                              * Blueberry Cake
+                              * Coffee Cake
+                              * Vanilla Cake

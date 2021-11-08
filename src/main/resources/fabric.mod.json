@@ -4,13 +4,14 @@
   "version": "${version}",
 
   "name": "Cake Mod",
-  "description": "Cakes!!!",
+  "description": "Adds more cakes to the game!",
   "authors": [
     "Link4real"
   ],
   "contact": {
     "sources": "https://github.com/Link4real/CakeMod",
-    "issues": "https://github.com/Link4real/CakeMod/issues"
+    "issues": "https://github.com/Link4real/CakeMod/issues",
+    "website": "https://link4real.github.io/cake"
   },
 
   "license": "MIT",
