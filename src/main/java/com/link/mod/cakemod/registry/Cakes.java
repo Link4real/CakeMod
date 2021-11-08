@@ -20,9 +20,9 @@ public class Cakes {
     public static final Block CARROT_BLOCK = new CarrotCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block APPLE_PIE = new ApplePieBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block SPOOKY_CAKE = new SpookyCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
-    public static final Block GLOW_BERRY_CAKE = new BerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f).luminance(9));
+    public static final Block GLOW_BERRY_CAKE = new GlowBerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f).luminance(9));
     public static final Block CHOCOLATE_CARROT_CAKE = new CarrotCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
-    public static final Block SWEET_BERRY_CAKE = new BerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block SWEET_BERRY_CAKE = new SweetBerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
 
     public static void register() {
         //Chocolate Cake

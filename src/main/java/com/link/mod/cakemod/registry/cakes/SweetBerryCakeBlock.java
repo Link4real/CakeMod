@@ -11,9 +11,9 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class BerryCakeBlock extends CakeBlock {
-    public BerryCakeBlock(Settings settings) {
-        super(FabricBlockSettings.of(Material.CAKE).ticksRandomly().sounds(BlockSoundGroup.WOOL).nonOpaque().luminance(9));
+public class SweetBerryCakeBlock extends CakeBlock {
+    public SweetBerryCakeBlock(Settings settings) {
+        super(FabricBlockSettings.of(Material.CAKE).ticksRandomly().sounds(BlockSoundGroup.WOOL).nonOpaque());
     }
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
