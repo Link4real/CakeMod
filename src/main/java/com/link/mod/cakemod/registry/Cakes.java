@@ -24,6 +24,7 @@ public class Cakes {
     public static final Block CHOCOLATE_CARROT_CAKE = new CarrotCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block SWEET_BERRY_CAKE = new SweetBerryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block BLUEBERRY_CAKE = new BlueberryCake(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block CRANBERRY_CAKE = new CranberryCake(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
 
     public static void registerCakes() {
         //Chocolate Cake
@@ -55,6 +56,9 @@ public class Cakes {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sweet_berry_cake"), new BlockItem(SWEET_BERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
         //Blueberry Cake (Croptopia Cake)
         Registry.register(Registry.BLOCK , new Identifier(MOD_ID, "blueberry_cake"), BLUEBERRY_CAKE);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "blueberry_cake"), new BlockItem(BLUEBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "blueberry_cake"), new CroptopiaCakeItem(BLUEBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
+        //Cranberry Cake (Croptopia Cake)
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "cranberry_cake"), CRANBERRY_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "cranberry_cake"), new CroptopiaCakeItem(CRANBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
     }
 }

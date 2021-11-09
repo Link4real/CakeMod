@@ -9,5 +9,7 @@
   "block.cakemod.chocolate_carrot_cake": "Chocolate Carrot Cake",
   "block.cakemod.sweet_berry_cake": "Sweet Berry Cake",
   "block.cakemod.blueberry_cake": "Blueberry Cake",
-  "itemGroup.cakemod.main": "Cake Mod"
+  "block.cakemod.cranberry_cake": "Cranberry Cake",
+  "itemGroup.cakemod.main": "Cake Mod",
+  "item.cakemod.croptopia.tooltip": "This Cake needs *Croptopia* to be crafted!"
 }
