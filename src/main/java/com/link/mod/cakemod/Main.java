@@ -24,12 +24,13 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(Cakes.APPLE_PIE));
                 stacks.add(new ItemStack(Cakes.GLOW_BERRY_CAKE));
                 stacks.add(new ItemStack(Cakes.SWEET_BERRY_CAKE));
+                stacks.add(new ItemStack(Cakes.BLUEBERRY_CAKE));
             })
             .build();
     // ...
 
     @Override
     public void onInitialize() {
-        Cakes.register();
+        Cakes.registerCakes();
     }
 }

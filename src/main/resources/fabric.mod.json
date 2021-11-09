@@ -33,6 +33,6 @@
     "java": ">=16"
   },
   "suggests": {
-    "foodmod": "FoodMod by Link4real"
+    "plushie-mod": "Plushie Mod by Link4real"
   }
 }
