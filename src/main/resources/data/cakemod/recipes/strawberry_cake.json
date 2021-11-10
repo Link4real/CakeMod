@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "SES",
+    "WCW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "croptopia:strawberry"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "cakemod:strawberry_cake",
+    "count": 1
+  }
+}
