@@ -11,5 +11,8 @@
   "block.cakemod.blueberry_cake": "Blueberry Cake",
   "block.cakemod.cranberry_cake": "Cranberry Cake",
   "itemGroup.cakemod.main": "Cake Mod",
-  "item.cakemod.croptopia.tooltip": "This Cake needs *Croptopia* to be crafted!"
+  "item.cakemod.croptopia.tooltip": "This Cake needs *Croptopia* to be crafted!",
+  "modmenu.updates": "Updates",
+  "modmenu.curseforge": "Curseforge",
+  "modmenu.modrinth": "Modrinth"
 }

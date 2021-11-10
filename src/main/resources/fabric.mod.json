@@ -11,7 +11,7 @@
   "contact": {
     "sources": "https://github.com/Link4real/CakeMod",
     "issues": "https://github.com/Link4real/CakeMod/issues",
-    "website": "https://link4real.github.io/cake"
+    "homepage": "https://link4real.github.io/cake"
   },
 
   "license": "MIT",
@@ -34,5 +34,14 @@
   },
   "suggests": {
     "plushie-mod": "Plushie Mod by Link4real"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.updates": "https://link4real.github.io/updates.html",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/cake-mod",
+        "modmenu.modrinth": "https://modrinth.com/mod/cake"
+      }
+    }
   }
 }
