@@ -17,6 +17,6 @@ public class CroptopiaCakeItem extends BlockItem {
     }
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new TranslatableText("item.cakemod.croptopia.tooltip").formatted(Formatting.WHITE));
+        tooltip.add(new TranslatableText("item.cakemod.croptopia.tooltip").formatted(Formatting.GRAY));
     }
 }
