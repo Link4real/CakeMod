@@ -66,7 +66,7 @@ public class Cakes {
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "strawberry_cake"), STRAWBERRY_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "strawberry_cake"), new CroptopiaCakeItem(STRAWBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
         //Coffe Cake (Croptopia Cake)
-        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "coffe_cake"), COFFE_CAKE);
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "coffee_cake"), COFFE_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "coffee_cake"), new CroptopiaCakeItem(COFFE_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
     }
 }
