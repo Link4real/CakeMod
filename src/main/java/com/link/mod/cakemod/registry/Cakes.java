@@ -9,7 +9,6 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import org.lwjgl.system.CallbackI;
 
 import static com.link.mod.cakemod.Main.MOD_ID;
 
@@ -27,6 +26,7 @@ public class Cakes {
     public static final Block BLUEBERRY_CAKE = new BlueberryCake(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block CRANBERRY_CAKE = new CranberryCake(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block STRAWBERRY_CAKE = new StrawberryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block COFFE_CAKE = new CoffeCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
 
     public static void registerCakes() {
         //Chocolate Cake
@@ -62,8 +62,11 @@ public class Cakes {
         //Cranberry Cake (Croptopia Cake)
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "cranberry_cake"), CRANBERRY_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "cranberry_cake"), new CroptopiaCakeItem(CRANBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
-        //Strawberry Cake
+        //Strawberry Cake (Croptopia Cake)
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "strawberry_cake"), STRAWBERRY_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "strawberry_cake"), new CroptopiaCakeItem(STRAWBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
+        //Coffe Cake (Croptopia Cake)
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "coffe_cake"), COFFE_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "coffee_cake"), new CroptopiaCakeItem(COFFE_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
     }
 }

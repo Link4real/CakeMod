@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "cakemod:block/coffee_cake_0"
+    },
+    "bites=1": {
+      "model": "cakemod:block/coffee_cake_1"
+    },
+    "bites=2": {
+      "model": "cakemod:block/coffee_cake_2"
+    },
+    "bites=3": {
+      "model": "cakemod:block/coffee_cake_3"
+    },
+    "bites=4": {
+      "model": "cakemod:block/coffee_cake_4"
+    },
+    "bites=5": {
+      "model": "cakemod:block/coffee_cake_5"
+    },
+    "bites=6": {
+      "model": "cakemod:block/coffee_cake_6"
+    }
+  }
+}

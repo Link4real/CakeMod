@@ -27,9 +27,9 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(Cakes.BLUEBERRY_CAKE));
                 stacks.add(new ItemStack(Cakes.CRANBERRY_CAKE));
                 stacks.add(new ItemStack(Cakes.STRAWBERRY_CAKE));
+                stacks.add(new ItemStack(Cakes.COFFE_CAKE));
             })
             .build();
-    // ...
 
     @Override
     public void onInitialize() {

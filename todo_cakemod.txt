@@ -1,6 +1,6 @@
 -Other mods implementation -> Croptopia
-                              * Cranberry Cake
-                              * Strawberry Cake
-                              * Blueberry Cake
                               * Coffee Cake
                               * Vanilla Cake
+                              * Raspberry Cake
+                              * Banana Cake
+                              * Bundt Cake (Guglehupf)
