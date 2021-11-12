@@ -26,7 +26,8 @@ public class Cakes {
     public static final Block BLUEBERRY_CAKE = new BlueberryCake(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block CRANBERRY_CAKE = new CranberryCake(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
     public static final Block STRAWBERRY_CAKE = new StrawberryCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
-    public static final Block COFFE_CAKE = new CoffeCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block COFFEE_CAKE = new CoffeCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
+    public static final Block VANILLA_CAKE = new VanillaCakeBlock(FabricBlockSettings.of(Material.CAKE).strength(0.5f));
 
     public static void registerCakes() {
         //Chocolate Cake
@@ -66,7 +67,10 @@ public class Cakes {
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "strawberry_cake"), STRAWBERRY_CAKE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "strawberry_cake"), new CroptopiaCakeItem(STRAWBERRY_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
         //Coffe Cake (Croptopia Cake)
-        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "coffee_cake"), COFFE_CAKE);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "coffee_cake"), new CroptopiaCakeItem(COFFE_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "coffee_cake"), COFFEE_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "coffee_cake"), new CroptopiaCakeItem(COFFEE_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
+        //Vanilla Cake (Croptopia Cake)
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "vanilla_cake"), VANILLA_CAKE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "vanilla_cake"), new CroptopiaCakeItem(VANILLA_CAKE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(1)));
     }
 }

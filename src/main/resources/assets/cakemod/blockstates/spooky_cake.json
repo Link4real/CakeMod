@@ -20,9 +20,6 @@
     },
     "bites=6": {
       "model": "cakemod:block/spooky_cake_6"
-    },
-    "bites=7": {
-      "model": "cakemod:block/spooky_cake_7"
     }
   }
 }

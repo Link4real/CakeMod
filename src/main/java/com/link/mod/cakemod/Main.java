@@ -3,6 +3,7 @@ package com.link.mod.cakemod;
 import com.link.mod.cakemod.registry.Cakes;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.command.argument.ItemStringReader;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -27,7 +28,8 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(Cakes.BLUEBERRY_CAKE));
                 stacks.add(new ItemStack(Cakes.CRANBERRY_CAKE));
                 stacks.add(new ItemStack(Cakes.STRAWBERRY_CAKE));
-                stacks.add(new ItemStack(Cakes.COFFE_CAKE));
+                stacks.add(new ItemStack(Cakes.COFFEE_CAKE));
+                stacks.add(new ItemStack(Cakes.VANILLA_CAKE));
             })
             .build();
 

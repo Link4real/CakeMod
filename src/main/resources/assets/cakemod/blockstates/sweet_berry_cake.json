@@ -20,9 +20,6 @@
     },
     "bites=6": {
       "model": "cakemod:block/sweet_berry_cake_6"
-    },
-    "bites=7": {
-      "model": "cakemod:block/sweet_berry_cake_7"
     }
   }
 }
