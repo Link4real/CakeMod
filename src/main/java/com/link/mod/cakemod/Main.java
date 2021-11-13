@@ -30,6 +30,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(Cakes.STRAWBERRY_CAKE));
                 stacks.add(new ItemStack(Cakes.COFFEE_CAKE));
                 stacks.add(new ItemStack(Cakes.VANILLA_CAKE));
+                stacks.add(new ItemStack(Cakes.BANANA_CAKE));
             })
             .build();
 
