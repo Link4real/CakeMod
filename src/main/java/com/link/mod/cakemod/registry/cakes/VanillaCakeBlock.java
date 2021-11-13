@@ -17,6 +17,6 @@ public class VanillaCakeBlock extends CakeBlock {
     }
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0.0f, 0f, 0.0f, 1f, 1.8f, 1f);
+        return VoxelShapes.cuboid(0f, 0f, 0f, 0.9f, 0.5f, 0.9f);
     }
 }

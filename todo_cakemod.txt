@@ -1,5 +1,4 @@
 -Other mods implementation -> Croptopia
-                              * Vanilla Cake
                               * Raspberry Cake
                               * Banana Cake
                               * Bundt Cake (Guglehupf)
