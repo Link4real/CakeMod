@@ -2,28 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#C#",
-    "ESE",
-    "HSH"
+    "SES",
+    "WWW"
   ],
   "key": {
     "#": {
       "item": "minecraft:milk_bucket"
     },
     "C": {
-      "item": "croptopia:butter"
-    },
-    "E": {
-      "item": "minecraft:egg"
+      "item": "croptopia:raspberry"
     },
     "S": {
       "item": "minecraft:sugar"
     },
-    "H": {
-      "item": "croptopia:flour"
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:wheat"
     }
   },
   "result": {
-    "item": "cakemod:bundt_cake",
+    "item": "cakemod:raspberry_cake",
     "count": 1
   }
 }

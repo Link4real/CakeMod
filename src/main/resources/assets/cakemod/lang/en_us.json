@@ -14,8 +14,8 @@
   "block.cakemod.coffee_cake": "Coffee Cake",
   "block.cakemod.vanilla_cake": "Vanilla Cake",
   "block.cakemod.banana_cake": "Banana Cake",
+  "block.cakemod.raspberry_cake": "Raspberry Cake",
   "block.cakemod.bundt_cake": "Bundt Cake",
-
   "itemGroup.cakemod.main": "Cake Mod",
   "item.cakemod.croptopia.tooltip": "This Cake needs *Croptopia* to be crafted!",
   "modmenu.updates": "Updates",
